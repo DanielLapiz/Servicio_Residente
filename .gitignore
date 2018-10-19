@@ -1,17 +1,18 @@
-#java specific
-*.class
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
 
-#netbeans ignore personal stuff
-nbproject/
+# Other files and folders
+.settings/
 
-## generic files to ignore
-*~
-*.lock
-*.DS_Store
-*.swp
-*.out
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
